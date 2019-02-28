@@ -1,0 +1,166 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif
+}
+
+body {
+    background-color: rgb(12, 68, 158);
+    width: 100%;
+}
+
+#game-holder {
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.holder {
+    text-align: center;
+    align-items: center;
+    /* height: 100%;
+    margin-top: 20px; */
+    display: inline;
+}
+
+/* #game-heading-holder {
+    height: 100%;
+    background-color: #f7ea63;
+    margin: auto;
+} */
+
+#game-board-action {
+    /* position: absolute; */
+    display: inline-table;
+    width: 40%;
+    /* width: 25%;
+    height: 500px; */
+    background: red;
+    border: 2px solid orangered;
+    margin: auto;
+}
+
+table {
+    display: inline-table;
+    width: 50%; /* 80%; */
+    table-layout: fixed;
+}
+
+table, td {
+    border: 2px solid #f49e4c;
+    border-collapse: collapse;
+    height: 50px;
+}
+
+/* Player A Cells */
+.row-player-a td div {
+    background-color: #ab3428;
+}
+
+.row-player-a td div:hover {
+    background-color: #7c261e;
+}
+
+.player-a-background {
+    background-color: #551a15;
+}
+
+/* Battlefield Cells */
+.row-battlefield td div {
+    background-color: #f5ee9e;
+}
+
+.row-battlefield td div:hover {
+    background-color: #dad38e;
+}
+
+.battlefield-background {
+    background-color: #aaa46f;
+}
+
+/* Player B Cells */
+.row-player-b td div  {
+    background-color: #3b8ea5;
+}
+
+.row-player-b td div:hover  {
+    background-color: #2d6b7c;
+}
+
+.player-b-background {
+    background-color: #204c58;
+}
+
+td div {
+    height: 100%;
+    transition: transform 300ms ease-in-out
+}
+
+td:hover div {
+    transform: translateY(-5px);
+}
+
+/* Action */
+.h1 {
+    display: block;
+    font-size: 0.9em;
+    /* margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    margin: auto;
+    font-weight: bold;
+}
+
+.h1-player-a {
+    color: #f44141;
+    display: block;
+    font-size: 0.9em;
+    margin: auto;
+    font-weight: bold;
+}
+
+.h1-player-b {
+    color: #2238c9;
+    display: block;
+    font-size: 0.9em;
+    margin: auto;
+    font-weight: bold;
+}
+
+.hero-health-full {
+    color: #22c975;
+    display: block;
+    font-size: 0.9em;
+    margin: auto;
+    font-weight: bold;
+}
+
+.obstacle {
+    transform: translateY(0);
+    background-color: rgb(22, 22, 22) !important;
+    color: #f1f1f1 !important;
+}
+
+.obstacle:hover {
+    transform: translateY(0);
+    background-color: rgb(22, 22, 22) !important;
+    color: #f1f1f1 !important;
+}
+
+.speedOne {
+    transform: translateY(-5px);
+    background-color: #ff6262 !important;
+}
+
+.speedTwo {
+    transform: translateY(-5px);
+    background-color: #ffa162 !important;
+}
+
+.speedThree {
+    transform: translateY(-5px);
+    background-color: #ffda62 !important;
+}
+

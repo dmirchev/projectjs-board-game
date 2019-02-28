@@ -6,9 +6,29 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
+    <div id="game-heading-holder" class="holder"></div>
+    <div id="game-holder">
+        <!-- <div id="game-board-holder" class="holder"></div> -->
+        <table id="game-board-table"></table>
+        <div id="game-board-action"></div>
+    </div>
     
+    <script src="DOM.js"></script>
+
+    <script src="Heroes/Hero.js"></script>
+    <script src="Heroes/Knight.js"></script>
+    <script src="Heroes/Elf.js"></script>
+    <script src="Heroes/Dwarf.js"></script>
+
+    <script src="HeroesManager.js"></script>
+    <script src="Player.js"></script>
+
+    <script src="HeadingManager.js"></script>
+    <script src="Element.js"></script>
+    <script src="Grid.js"></script>
+    <script src="ActionManager.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
